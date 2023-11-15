@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,  
+                   initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="calculator.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <h2>Калькулятор</h2>
+      <input
+        type="number"
+        class="form-control"
+        placeholder="Введите 1 число"
+        id="input1"
+        value="10"
+      />
+      <input
+        type="number"
+        class="form-control"
+        placeholder="Введите 2 число"
+        id="input2"
+        value="5"
+      />
+
+      <div calss="button-plus-minus">
+        <button class="btn-plus" id="plus">+</button>
+        <button class="btn-minus" id="minus">-</button>
+        <button class="btn-kobeitu" id="kobeitu">*</button>
+        <button class="btn-bolu" id="bolu">/</button>
+        <button class="btn-kaldyk" id="kaldyk">%</button>
+      </div>
+
+      <button class="btn" id="submit">Вычислить</button>
+
+      <div class="result">
+        <h4>Результат</h4>
+        <p id="result" class="mb"></p>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
